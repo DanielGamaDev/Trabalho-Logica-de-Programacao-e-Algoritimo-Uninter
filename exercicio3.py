@@ -150,6 +150,6 @@ multiplicador_rota = escolhe_rota()  # Utiliza as funções para calcular o mult
 valor_total = (multiplicador_peso * multiplicador_rota * valor_volume) # Calcula o valor total final
 
 print("\n Multiplicador do Peso: {} | Multiplicador da Rota: {} | Valor do Volume: {} |"
-      .format(multiplicador_peso, multiplicador_rota, valor_volume)) # Exibe os valores calculados anteriormente para o usuário
+.format(multiplicador_peso, multiplicador_rota, valor_volume)) # Exibe os valores calculados anteriormente para o usuário
 
 print("\n O valor total a ser pago por esta entrega é de R${}".format(valor_total)) # Exibe o valor final para o usuário
