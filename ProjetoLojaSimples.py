@@ -9,7 +9,7 @@ valor_com_desconto = float(0)
 # FUNÇÕES
 # PROGRAMA PRINCIPAL
 
-print("Bem-Vindo a Loja do aluno Daniel dos Santos Gama, RU: 4121047 \n")
+print("Bem-Vindo a Loja\n")
 
 while (valor_p <= 0) or (quantidade_p <= 0):      # Validador de valor e quantidade
     valor_p = float(input("Insira o valor do produto: "))
